@@ -648,20 +648,6 @@ img.still {
   overflow: hidden;
 }
 
-.twist-still::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--pink);
-  mix-blend-mode: color;
-  opacity: 0.35;
-  pointer-events: none;
-  animation: glitch 3s steps(1) infinite;
-}
-
 .twist-still img {
   display: block;
   width: 100%;
